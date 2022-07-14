@@ -72,10 +72,12 @@ header {
   padding: 10px;
 }
 .table-box {
-  background-color: #4b6584;
+  /* background-color: #4b6584; */
 }
 tr {
   margin: 5px;
+  background-color: #4b6584;
+  width: 100%;
 }
 #clr-btn {
   padding: 10px;
@@ -83,4 +85,15 @@ tr {
   border-radius: 3px;
   border: none;
   color: white;
+}
+#city-container {
+  padding: 0 20px;
+  margin: 10px;
+  border: 2px black solid;
+}
+td {
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5%;
 }
